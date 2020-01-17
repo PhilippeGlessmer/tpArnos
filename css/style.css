@@ -1,0 +1,176 @@
+/*
+Import police Roboto
+*/	
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+@charset "utf-8";
+html
+{
+	height: 100%;
+	background: url(../img/fd.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover{
+	text-decoration: none;
+}
+body
+{
+	font-size: 12px;
+	height: 100%;	
+}
+main{
+	margin: auto;
+	padding: auto;
+	width: 1100px;
+}
+/*
+Header
+*/
+header{
+	height: 85px;
+	padding-top: 30px;
+}
+.Socio
+{
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+nav{
+	margin-top: 25px;
+	margin-bottom: 65px;
+}
+.menu .noneLink {
+	font-size: 13px;
+	color: #FFF;
+	font-weight: bold;
+	font-style: italic;
+	width: auto;
+	padding-right: 5px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+ul li {
+	display:inline;
+}
+li{
+	float: left;
+}
+.menu a:hover{
+	background-color: #FFFFFF;
+	color: red;
+	padding: 2px;
+	border-radius: 5px;
+}
+/*
+Slide
+*/
+#slideshow-container{
+	clear: both; 
+	margin-top: 25px;
+	background-color: #FFF;
+	padding: 10px;
+	margin: auto;
+}
+/*
+Bloc bas
+*/
+#Bloc{
+	clear:both; 
+	margin-top: 100px;
+	display: flex; 
+	margin-bottom: 60px;
+}
+#Bloc01
+{
+	width: 360px;
+	height: 280px;
+	color: #FFFFFF;
+}
+#Bloc01 p
+{
+	
+	padding-right: 10px;
+	padding-top: 10px;
+	text-align: justify;
+}
+
+#Bloc02
+{
+	width: 340px;
+	height: 280px;
+	margin-left: 27px;
+	background-image:url(../img/fondGris.png);
+}
+
+#Bloc02 ul
+{
+	color: #FFF;
+	list-style:none;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#Bloc02 ul li a
+{
+	font-size: 14px;
+	background: url(../img/puce.png) no-repeat left;
+	padding-left: 15px;
+	color: #FFF;
+}
+
+#Bloc02 .resa
+{
+	position:  absolute;
+	bottom: 10px;
+	left: 95px;
+}
+
+#Bloc03
+{
+	width: 340px;
+	height: 260px;
+	position: relative;
+	margin-left: 28px;
+	background-image:url(../img/fondGris.png);
+	padding-top: 20px;
+}
+/*
+Footer
+*/
+footer{
+	color: #FFFFFF;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 15px
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
